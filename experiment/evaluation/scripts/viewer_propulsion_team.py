@@ -3,7 +3,7 @@ import csv
 from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objs as go
 
-CSV_FILE = r"data\ethanol\valve_test_3_2026-01-16_17-36-26.csv"
+CSV_FILE = r"experiment\evaluation\ethanol\data_processed\valve_test_3_2026-01-16_17-36-26.csv"
 
 if not os.path.isfile(CSV_FILE):
     raise FileNotFoundError(f"Datei nicht gefunden:\n{CSV_FILE}")

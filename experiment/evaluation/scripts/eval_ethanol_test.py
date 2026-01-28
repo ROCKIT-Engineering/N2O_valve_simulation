@@ -9,9 +9,9 @@ end_time_stamp = 450
 
 T0 = 413.1
 
-old_file_path = r"ethanol\data_raw\16_01_2026\log_Valve_test_3_2026-01-16_17-36-26.csv"
-new_file_path = r"ethanol\data_processed\valve_test_3_2026-01-16_17-36-26.csv"
-result_file_path = r"ethanol\data_processed\valve_test_3_2026-01-16_17-36-26_results.png"
+old_file_path = r"experiment\evaluation\ethanol\data_raw\16_01_2026\log_Valve_test_3_2026-01-16_17-36-26.csv"
+new_file_path = r"experiment\evaluation\ethanol\data_processed\valve_test_3_2026-01-16_17-36-26.csv"
+result_file_path = r"experiment\evaluation\ethanol\data_processed\valve_test_3_2026-01-16_17-36-26_results.png"
 
 stepper_revs = [0.05, 0.1, 0.2, 0.3, .4, 0.5, .75, 1, 1.25, 1.5, 2, 2.5, 3, 4]
 stepper_sleep_time = 2
